@@ -1,0 +1,101 @@
+#container-two {
+    border: 1px solid #c9c9c9;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.headingtwo {
+    font-weight: bold;
+    background-color: #134a9f;
+    color: white;
+    padding: 15px;
+}
+.headingtwo td{
+    color: white;
+    text-align: center;
+    height: 50px ;
+}
+
+.headingthree {
+    font-weight: bold;
+    color: #7cbff4;
+    border-bottom: 1px solid #c9c9c9;
+
+}
+
+.inputHeading {
+    font-size: 12px;
+    font-weight: bold;
+    color: #757575;
+    padding-left: 15px;
+}
+
+.Status {
+    font-size: 11px;
+    font-weight: bold;
+    color: #2e8953;
+    font-style: italic;
+    padding: 20px;
+}
+
+.errorContainer{
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    background: #dc7373;
+    justify-content: center;
+    width: 20%;
+}
+.Error{
+    font-size: 16px;
+    text-align: left;
+    color: #dc7373;
+    float: right;
+
+}
+
+
+.tableRow{
+    text-align: center;
+}
+.tableIcon {
+    color: #0B5ED7;
+    cursor: pointer;
+}
+
+th, td {
+    width:50px;
+    text-align: center !important;
+}
+@media only screen and (min-width: 994px) {
+    tr {
+        width: 100%;
+    }
+
+    th {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    tr {
+        width: 100%;
+    }
+
+    th {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px)  {
+    tr {
+        width: 50%;
+    }
+
+    th {
+        font-size: 14px;
+    }
+}
